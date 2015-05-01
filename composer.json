@@ -2,7 +2,8 @@
     "name": "php-pm/php-pm",
     "require": {
         "symfony/console": "~2.6",
-        "react/react": "0.4.*"
+        "react/react": "0.4.*",
+        "johannes/phppm-sulu-bridge": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -13,5 +14,11 @@
         "php-pm/httpkernel-adapter": "HttpKernel adapter for Symfony and Laravel frameworks",
         "php-pm/zend-adapter": "Zend application framework adapter"
     },
-    "bin": ["bin/ppm"]
+    "bin": ["bin/ppm"],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:wachterjohannes/phppm-sulu-bridge.git"
+        }
+    ]
 }

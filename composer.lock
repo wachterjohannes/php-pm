@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c04b336f166b3973a6627cbb3b6f179c",
+    "hash": "10d0277eb71398b8c37e449af0cfaa5e",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -34,7 +34,7 @@
                     "Evenement": "src"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -81,7 +81,7 @@
                     "Guzzle\\Parser": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -96,6 +96,41 @@
             ],
             "abandoned": "guzzle/guzzle",
             "time": "2014-02-05 18:29:46"
+        },
+        {
+            "name": "johannes/phppm-sulu-bridge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wachterjohannes/phppm-sulu-bridge.git",
+                "reference": "1fb12416616d2c8095b52da9e69d32a94979cfda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wachterjohannes/phppm-sulu-bridge/zipball/1fb12416616d2c8095b52da9e69d32a94979cfda",
+                "reference": "1fb12416616d2c8095b52da9e69d32a94979cfda",
+                "shasum": ""
+            },
+            "require": {
+                "php-pm/php-pm": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sulu\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Johannes Wachter",
+                    "email": "johannes.wachter@massiveart.at"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/wachterjohannes/phppm-sulu-bridge/tree/master",
+                "issues": "https://github.com/wachterjohannes/phppm-sulu-bridge/issues"
+            },
+            "time": "2015-05-01 16:02:55"
         },
         {
             "name": "react/cache",
@@ -126,7 +161,7 @@
                     "React\\Cache\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -167,7 +202,7 @@
                     "React\\ChildProcess\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -208,7 +243,7 @@
                     "React\\Dns\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -252,7 +287,7 @@
                     "React\\EventLoop\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -292,7 +327,7 @@
                     "React\\Http\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -336,7 +371,7 @@
                     "React\\HttpClient\\": "src"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -377,7 +412,7 @@
                     "src/functions_include.php"
                 ]
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -431,7 +466,7 @@
                     "dev-master": "0.5-dev"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -474,7 +509,7 @@
                     "React\\Socket\\": "src"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -516,7 +551,7 @@
                     "React\\SocketClient\\": "src"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -563,7 +598,7 @@
                     "React\\Stream\\": "src"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -614,7 +649,7 @@
                     "Symfony\\Component\\Console\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -636,7 +671,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "johannes/phppm-sulu-bridge": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
